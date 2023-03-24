@@ -1,0 +1,3 @@
+keytool -genkeypair -keystore developer.keystore -storepass YOURPASS_FOR_STORE -keypass YOURPASS_FOR_KEY -alias dkkindletdev -dname "CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown" -validity 5300 -keyalg RSA
+keytool -genkeypair -keystore developer.keystore -storepass YOURPASS_FOR_STORE -keypass YOURPASS_FOR_KEY -alias dikindletdev -dname "CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown" -validity 5300 -keyalg RSA
+keytool -genkeypair -keystore developer.keystore -storepass YOURPASS_FOR_STORE -keypass YOURPASS_FOR_KEY -alias dnkindletdev -dname "CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown" -validity 5300 -keyalg RSA

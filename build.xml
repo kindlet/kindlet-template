@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="HelloWorld" default="jar">
+
+	<path id="app.classpath">
+		<pathelement location="bin" />
+		<pathelement location="${user.home}/.kindle/Kindlet-1.2.jar" />
+	</path>
+
+	<target name="compile">
+		<mkdir dir="bin" />
+		<javac srcdir="src" destdir="bin" classpathref="app.classpath" />
+	</target>
+
+	<target name="jar" depends="compile">
+<!--	<mkdir dir="dist" />-->
+<!--	<jar destfile="dist/HelloWorld.jar" basedir="bin" />-->
+		<jar destfile="HelloWorld.jar" basedir="bin" />
+	</target>
+
+</project>
