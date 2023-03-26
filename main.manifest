@@ -5,6 +5,6 @@ Implementation-Version: 0.0.1
 Implementation-Vendor: purveyor_of_kindlets
 Extension-List: SDK
 SDK-Extension-Name: com.amazon.kindle.kindlet
-SDK-Specification-Version: 2.1
+SDK-Specification-Version: 1.2
 Toolbar-Mode: persistent
 Font-Size-Mode: point

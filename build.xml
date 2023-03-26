@@ -6,7 +6,10 @@
 		<pathelement location="bin" />
 		<pathelement location="${user.home}/.kindle/Kindlet-1.2.jar" />
 	</path>
-
+	<property name="target" value="1.4" />
+	<property name="source" value="1.4" />
+	<property name="ant.build.javac.source" value="1.4"/>
+	<property name="ant.build.javac.target" value="1.4"/>
 	<target name="compile">
 		<mkdir dir="bin" />
 		<javac srcdir="src" destdir="bin" classpathref="app.classpath" />

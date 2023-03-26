@@ -2,7 +2,7 @@
 # Added
 rm kindlet.azw2
 rm kindlet.jar
-jar cvmf main.manifest kindlet.jar src/test
+jar cvmf main.manifest kindlet.jar src/test/
 # KEYSTORE=$HOME/.kindle/kindle.keystore
 KEYSTORE=developer.keystore
 JAR=kindlet.azw2
