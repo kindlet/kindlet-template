@@ -14,7 +14,7 @@
 		<mkdir dir="bin" />
 		<javac srcdir="src" destdir="bin" classpathref="app.classpath" />
 	</target>
-
+	<attribute name="Main-Class" value="test.main" />
 	<target name="jar" depends="compile">
 <!--	<mkdir dir="dist" />-->
 <!--	<jar destfile="dist/HelloWorld.jar" basedir="bin" />-->
