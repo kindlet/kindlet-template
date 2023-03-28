@@ -14,7 +14,9 @@ Here's the actual part about programming it in Java. Warning: maybe don't start 
 
 The Kindle KDK documentation was taken down sometime around 2019. See: [Forum: "Does anyone have an archive of the KDK (Kindle Development Kit) Developer Docs?"](https://www.mobileread.com/forums/showthread.php?t=353046). Unfortunately, Archive.org does not seem to have a copy of the documentation (only the homepage/overview).
 
-Fortunately,
+Fortunately, there seems to be a KDK emulator with the source files. Although this isn's as good as documentation, all the UI classes seem to be there.
+
+[View KDK Emulator](https://github.com/kindlet/kdk-emulator/tree/master/src/main/java/com/amazon/kindle/kindlet/ui)
 
 ## Useful Resources
 
