@@ -16,7 +16,7 @@ The Kindle KDK documentation was taken down sometime around 2019. See: [Forum: "
 
 Fortunately, there seems to be a KDK emulator with the source files. Although this isn's as good as documentation, all the UI classes seem to be there.
 
-[View KDK Emulator](https://github.com/kindlet/kdk-emulator/tree/master/src/main/java/com/amazon/kindle/kindlet/ui)
+[View KDK Emulator](https://github.com/umjammer/kdk-emulator/tree/master/src/main/java/com/amazon/kindle/kindlet/ui)
 
 ## Useful Resources
 
