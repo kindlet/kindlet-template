@@ -15,7 +15,7 @@ Almost all of these come from the [MobileRead Forums](https://www.mobileread.com
 * [Forum: "How to make a new Kindlet?" - Contains useful files and information](https://www.mobileread.com/forums/showthread.php?t=352953)
 * [Forum: "How to create a BIN update file from a developer keystore?"](https://www.mobileread.com/forums/showthread.php?t=353045)
 * [Forum: "Does anyone have an archive of the KDK (Kindle Development Kit) Developer Docs?"](https://www.mobileread.com/forums/showthread.php?t=353046)
-* [Merged Developer Keystore](https://www.mobileread.com/forums/showthread.php?t=152294)
+* [Forum: "Merged Developer Keystore"](https://www.mobileread.com/forums/showthread.php?t=152294)
 
 ## Credits
 
