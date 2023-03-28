@@ -1,15 +1,19 @@
 #!/bin/sh
 # Added
-rm kindlet.azw2
-rm kindlet.jar
-jar cvmf main.manifest kindlet.jar src/test/
+# jar cvmf main.manifest kindlet.jar src/test/
 # KEYSTORE=$HOME/.kindle/kindle.keystore
 KEYSTORE=developer.keystore
 JAR=kindlet.azw2
 MANIFEST=main.manifest
 
 ant jar
-cp kindlet.jar $JAR
-jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dkkindletdev
-jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dikindletdev
-jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dnkindletdev
+# cp kindlet.jar $JAR
+cp HelloWorld.jar $JAR
+#jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dkkindletdev
+#jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dikindletdev
+#jarsigner -keystore $KEYSTORE -storepass YOURPASS_FOR_STORE $JAR dnkindletdev
+
+
+jarsigner -keystore $KEYSTORE -storepass password $JAR dktest
+jarsigner -keystore $KEYSTORE -storepass password $JAR ditest
+jarsigner -keystore $KEYSTORE -storepass password $JAR dntest

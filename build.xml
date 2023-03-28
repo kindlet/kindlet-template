@@ -14,11 +14,23 @@
 		<mkdir dir="bin" />
 		<javac srcdir="src" destdir="bin" classpathref="app.classpath" />
 	</target>
-	<attribute name="Main-Class" value="test.main" />
 	<target name="jar" depends="compile">
-<!--	<mkdir dir="dist" />-->
-<!--	<jar destfile="dist/HelloWorld.jar" basedir="bin" />-->
-		<jar destfile="HelloWorld.jar" basedir="bin" />
+		<mkdir dir="dist" />
+		<jar destfile="HelloWorld.jar" basedir="bin">
+			<manifest>
+				<attribute name="Manifest-Version" value="1.0" />
+				<attribute name="Main-Class" value="test.main" />
+				<attribute name="Implementation-Title" value="Kindlet KDK" />
+				<attribute name="Implementation-Version" value="0.0.1" />
+				<attribute name="Implementation-Vendor" value="purveyor_of_kindlets" />
+				<attribute name="Extension-List" value="SDK" />
+				<attribute name="SDK-Extension-Name" value="com.amazon.kindle.kindlet" />
+				<attribute name="SDK-Specification-Version" value="1.2" />
+				<attribute name="Toolbar-Mode" value="persistent" />
+				<attribute name="Font-Size-Mode" value="point" />
+			</manifest>
+
+		</jar>
 	</target>
 
 </project>
