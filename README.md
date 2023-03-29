@@ -44,3 +44,7 @@ DISCLAIMER: I do not endorse any of these links.
 * [evilReader](https://www.mobileread.com/forums/member.php?u=333976)
 * [AABBox](https://www.mobileread.com/forums/member.php?u=334018)
 * [encol](https://www.mobileread.com/forums/member.php?u=272794)
+
+## Keystores
+
+Make your updates using [this tool](https://github.com/kindlet/kindle-keystore-update-builder).
