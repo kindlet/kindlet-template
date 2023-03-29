@@ -47,4 +47,4 @@ DISCLAIMER: I do not endorse any of these links.
 
 ## Keystores
 
-Make your updates using [this tool](https://github.com/kindlet/kindle-keystore-update-builder).
+Make your keystore installer updates using [this tool](https://github.com/kindlet/kindle-keystore-update-builder).
