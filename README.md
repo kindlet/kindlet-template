@@ -41,9 +41,9 @@ DISCLAIMER: I do not endorse any of these links.
 
 ## Credits
 
-* [MobileRead Forum: @evilReader](https://www.mobileread.com/forums/member.php?u=333976)
 * [MobileRead Forum: @AABBox](https://www.mobileread.com/forums/member.php?u=334018)
 * [MobileRead Forum: @encol](https://www.mobileread.com/forums/member.php?u=272794)
+* [MobileRead Forum: @evilReader](https://www.mobileread.com/forums/member.php?u=333976)
 
 ## Keystores
 
